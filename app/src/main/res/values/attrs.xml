@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveView">
+        <!-- 中心圆颜色-->
+        <attr name="center_color" format="color"/>
+        <!-- 中心圆半径（起始扩散波纹的起始半径）-->
+        <attr name="center_radius" format="dimension"/>
+        <!-- 扩散最大半径-->
+        <attr name="max_radius" format="dimension"/>
+        <!-- 创建新的波纹的间隔时间(毫秒)-->
+        <attr name="wave_interval_time" format="integer"/>
+        <!-- 一个波纹从创建到消失的持续时间(毫秒)-->
+        <attr name="wave_duration" format="integer"/>
+        <!-- 波纹的宽度-->
+        <attr name="wave_width" format="dimension"/>
+    </declare-styleable>
+</resources>
